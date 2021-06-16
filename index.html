@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./image/Minimalist-Crumpled-Paper-Simple-Background-Image.jpg");
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(255, 246, 246);
+  
+  
+}
+
+.topnav a {
+  float: left;
+  color: #3d22dadc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #e287f5;
+  color: white;
+}
+.logo{
+    display: inline;
+    margin-left: 60%;
+}
+.image{
+    padding: 10px;
+    border: rgb(0, 0, 0);
+    margin-left:7%;
+    margin-top: 5%;
+}
+.text{
+    align-content: space-between;
+    margin-left: 60%;
+    margin-top: -30%;
+}
+.h1{
+    font-size: 60px;
+    color: rgb(36, 52, 201);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.h2{font-size: 30px;
+    margin-left: 130px;
+    margin-top:-45px;
+    font-family: cursive;
+
+}
+.button{
+  background-color: #e287f5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 20px 2px;
+  margin-left:100px;
+  cursor: pointer;
+}
+.footer {
+  margin-top: 20%;
+	display: flex;
+	flex: auto;
+	justify-content:space-evenly;
+	font-style: normal;
+	color: rgb(185, 32, 178);
+	
+}
+.footer-text {
+  font-size: 0.9rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.footer-link {
+  color: rgb(49, 3, 3);
+  text-decoration: none;
+}
+
+.footer-link:hover { color: #c5ced8; }
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="aboutus.html">About Us</a>
+  <a href="contactus.html">Contact Us</a>
+  <img class="logo" src="./image/logo.png" height="50" width="250" alt="">
+</div>
+
+<div class="image">
+<img src="./image/Smiling-children-poor-LarmRmah-Unsplash-2.jpg" height="500px" width="800px" alt="">
+<div class="text">
+    <h1 class="h1" > Support <b> INDIA</b></h1>
+    <h2 class="h2"> Create a Better Future</h2>
+    <input class=button type="button" value=" Donate Now " onclick="parent.location='payscript.php'" >
+    
+</div>
+<footer class="footer" >
+  <div>
+    <p class="text-white tm-footer-text">
+      Copyright &copy; 2021 Sarvpriya Kaur
+      Design:<a href="#" class="footer-link">Sarvpriya Kaur</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>
